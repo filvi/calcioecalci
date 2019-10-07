@@ -1,0 +1,197 @@
+/*Modifica la dimensione dei testo nei paragrafi */
+p {
+    font-size:1.2em; 
+    line-height:1.5em
+}
+
+/* Modifica la dimensione nel testo dei titoli 1*/
+h1{
+    font-size:2em;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+/* Modifica la dimensione nel testo dei titoli 2*/
+h2{
+    font-size:1.8em;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+/* Modifica la dimensione nel testo dei titoli 3*/
+h3{
+    font-size:1.5em;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+/* Modifica la dimensione nel testo dei titoli 4*/
+h4{
+    font-size:1.3em;
+    
+}
+
+/* Modifica la dimensione nel testo dei titoli 5*/
+h5{
+    font-size:1.2em;
+}
+
+h5.mkd-st-title{
+    font-family: "Roboto Condensed"!important;
+}
+/* Modifica la dimensione nel testo dei titoli 6*/
+h6{
+    font-size:1.1em;
+}
+
+
+/*Elimina il bordo nel menu tra un link e l'altro, imposta il font come roboto e trasforma tutto in maiuscolo */
+.mkd-main-menu>ul>li>a{
+    border:none;
+    font-family:"Roboto";
+    text-transform:uppercase;
+
+}
+
+/*Cambia il colore del link nel menu evidenziato con il mouse e/o attivo */
+.mkd-main-menu>ul>li.mkd-active-item>a,.mkd-main-menu>ul>li.mkd-active-item>a:active, .mkd-main-menu>ul>li:hover>a, aside.mkd-sidebar .mkd-section-title-holder .mkd-st-title {
+    background-color: #00BCD4;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+/* Elimina l'ultimo bordo in fondo a destra*/
+.mkd-main-menu>ul>li:last-child>a {
+    border:none
+}
+
+/* Imposta la barra laterale con il font Roboto condensed, trasforma tutto in maiuscolo, aumenta lo spessore del testo e la dimensione*/
+ aside.mkd-sidebar .mkd-section-title-holder .mkd-st-title {
+     font-family:"Roboto Condensed";
+     text-transform: uppercase;
+     font-weight:900;
+     font-size:1.1em;
+}
+
+/* Aggiunge un'ombra al testo nel menu per aumentarne la leggibilita' */
+ .mkd-main-menu>ul>li>a{
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Imposta il colore del sottomenu per font e colore bianco*/
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li>a>span{
+    color:white!important;
+    font-family:"Roboto Condensed"!important;
+    }
+
+/* Imposta colore al passaggio del mouse nel sottomenu, aggiunge un divisorio,e aggiunge un'ombra per aumentarne la leggibilita'*/
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li:hover{
+    background-color:#0288D1;
+    border-bottom-color:#0288D1;
+    text-shadow: 0.5px 0.5px 0.5px rgba(79, 36, 21, 0.5);
+}
+
+
+/* Imposta il font nel sottomenu, imposta lo spessore del testo e aggiunge un ombra */
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li a>.item_text, .mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li a,.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li {
+    font-family:"Roboto Condensed"!important;
+    font-weight:900!important;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+/* rimuove la linea sotto i link quandi si passa con il mouse */
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li a:hover{
+    text-decoration:none
+}
+
+/* Impostazioni per far apparire il menu in due colonne al posto che una */
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li{
+    display: block!important;
+    float: left!important;
+    width: 200px!important;
+    height:57px!important;
+    margin-top:auto!important;
+    padding-top:auto!important;
+    border-bottom: none;
+}
+
+/* impostazioni per i ink dipari del sottomenu */
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li:nth-child(odd) {
+    float: left!important;
+    margin-right: 10px!important;
+}
+
+/* impostazioni per i ink pari del sottomenu */
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li:nth-child(even) {
+    float: right!important;
+}
+
+/* larghezza totale del sottomenu e allineamento verticale di contenuti del link */
+.mkd-drop-down .mkd-menu-second {
+    width: 412px!important;
+    vertical-align: middle!important;}
+
+/* colore della linea della searchbar */
+aside.mkd-sidebar .widget.widget_search input:not([type=submit]){
+    border: 1px solid rgba(236, 119, 75, 0.3);
+}
+
+/* testo dei Widget laterali (cerca nel sito, link veloci) tutto maiuscolo, spessore testo e dimensione font*/
+aside.mkd-sidebar .widget.widget_nav_menu ul li a {
+    text-transform:capitalize;
+    font-weight:700;
+    font-size:15px;
+}
+
+
+/* colore dello sfondo del widget con il tag barra_laterale_principale ovvero link principali */
+aside.mkd-sidebar .widget.widget_nav_menu ul li.barra_laterale_principale a{
+    color:#0288D1!important;
+}
+
+/* colore dello sfondo del widget con il tag barra_laterale_secondaria ovvero sottolink (tipo -famiglie e -docenti nella sezione registro elettronico) */
+/* impostazione colore e spessore testo */
+aside.mkd-sidebar .widget.widget_nav_menu ul li.barra_laterale_secondaria a{
+    color:#828282!important;
+    font-weight:600;
+}
+
+
+/* grandezza font e spaziatura tra le lettere nel menu secondario */
+ .mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li > a {
+     font-size:16px;
+/*     letter-spacing: 0.5px;*/
+}
+
+/* spaziatura interna pulsanti sottomenu */
+.mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li, .mkd-drop-down .mkd-menu-second .mkd-menu-inner ul li:hover {
+    padding-top:5px!important;
+    padding-bottom:5px!important;
+}
+
+/* Colore al passaggio del mouse */
+.mkd-post-item.mkd-pt-five-item .mkd-pt-five-content .mkd-pt-five-title a:hover{
+    color: #d3e7ff;
+}
+
+/* Colore e spessore del titolo */
+.mkd-section-title-holder .mkd-st-title{
+    background-color:#00BCD4;
+    font-weight:600!important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+}
+
+/*colore sfondo per info articoli  */
+.mkd-blog-holder.mkd-blog-single article .mkd-post-info, .mkd-blog-holder article .mkd-post-info{
+    background-color:#00BCD4!important
+}
+
+/* colore e trasparenza sotto testi dei plessi*/
+.mkd-post-item.mkd-pt-five-item .mkd-pt-five-image+.mkd-pt-five-content .mkd-pt-five-content-inner{
+    background-color: rgba(69, 78, 89,.35)!important;}
+}
+
+hr {
+border: 1px solid #D6E1FF;
+color: #D6E1FF;
+}

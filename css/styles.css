@@ -1,0 +1,255 @@
+/* BOOTSTRAP 3.x GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #5a5a5a;
+  background-image: url("../img/pages/back.gif");
+  background-position: center cover;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 1;
+    font-family: Bangers, sans-serif;
+    color: #ffcc00;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.carousel-caption p {
+    color:white!important;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 100vh;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+  margin-top:10%;
+
+}
+.featurette-image {
+ margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+        max-width: 100%;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+        max-width: 100%;
+      }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #ffcc00;
+  letter-spacing:0px;
+  text-shadow:3px 5px 8px rgba(0,0,0,1);
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remve the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    margin-top: 7%;
+  }
+
+
+}
+
+
+#target {
+  display: none;
+  background:#f5f5f5;
+  height:100%;
+  padding:5px;
+  margin:20px;
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(65,65,65,1);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(65,65,65,1);
+  box-shadow: 2px 2px 6px 0px rgba(65,65,65,1);
+}
+
+@media (min-width: 768px){
+   .navbar ul {
+      float: right !important;
+  }
+}
+
+
+
+.navbar, .navbar-brand{
+    font-family: Bangers, sans-serif;
+    font-size: 3rem;
+    color:white !important;
+    text-shadow: 1px 1px 1px black;    
+}
+
+.navbar {
+    border-radius: 4px;
+    border-bottom: 3px solid #ffcc00;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffcc00;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{ 
+    background-color: #fc4a2a!important;
+}
+
+
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+
+
+.navbar {
+    background-color: #333;
+}
+
+
+.featurette-heading{
+    font-family: Bangers, sans-serif;
+    padding: 15px;
+}
+
+.featurette-heading .text-muted {
+    color:white !important;
+}
+
+.row {
+    margin: auto !important;
+}
+
+.valutazione {
+    font-family: Bangers, sans-serif !important;
+    color: #ffcc00;
+    text-shadow: 1px 1px 1px black;    
+
+}
+
+
+.img-circle{
+    border: 1rem solid #fc4a2a;
+}
+
+.valutazione .img-circle{
+    border: 0.3rem solid #fc4a2a;
+}
+
+.valutazione .my-odd-img {
+    border: 0.3rem solid #ffcc00;
+}
+
+.valutazione{
+  background-color: rgba(255,255,255,0.9)!important;
+    padding:2em;
+    margin-top:10% !important;  
+}
+.row {
+    margin: auto 2% !important;
+}    
+
+
+.valutazione p {
+    color: #f5f5f5;
+    font-weight: 800;
+    padding:0.5em;
+    margin:10px 0;
+    text-shadow: 1px 1px 3px black
+}
+
+
+.navbar-toggle{
+    cursor:pointer;
+}
